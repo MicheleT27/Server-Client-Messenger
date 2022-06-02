@@ -57,9 +57,6 @@ public class Client {
     }
 
 
-
-
-
     public void closeEverything(Socket socket, BufferedReader bufferedReader, BufferedWriter bufferedWriter) {
         try {
             if (bufferedReader != null){
