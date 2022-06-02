@@ -40,6 +40,8 @@ public class SignUpController implements Initializable {
     private Button button_signup;
     @FXML
     private Button button_loginnow;
+    @FXML
+    private Label label_signupcomplete;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -56,6 +58,7 @@ public class SignUpController implements Initializable {
 
                 if (!tf_username.getText().trim().isEmpty() && !tf_email.getText().trim().isEmpty() && !tf_password.getText().trim().isEmpty()) {
                     DBUtils.signUpUser(event, tf_username.getText(), tf_email.getText(), tf_password.getText(), gender);
+                    label_signupcomplete.setText("Successfully signed up!");
                 } else {
                     System.out.println("Please fill in all the information!");
                     Alert alert = new Alert(Alert.AlertType.ERROR);

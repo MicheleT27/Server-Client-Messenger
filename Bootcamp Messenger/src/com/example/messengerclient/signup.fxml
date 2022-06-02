@@ -47,16 +47,16 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button fx:id="button_signup" layoutX="633.0" layoutY="530.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="265.0" style="-fx-background-color: #43beb5;" text="SignUp">
+      <Button fx:id="button_signup" layoutX="633.0" layoutY="545.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="265.0" style="-fx-background-color: #43beb5;" text="SignUp">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Label layoutX="665.0" layoutY="600.0" text="Already Signed Up?">
+      <Label layoutX="665.0" layoutY="615.0" text="Already Signed Up?">
          <font>
             <Font size="14.0" />
          </font></Label>
-      <Button fx:id="button_loginnow" layoutX="790.0" layoutY="595.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Log In!" underline="true">
+      <Button fx:id="button_loginnow" layoutX="790.0" layoutY="610.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Log In!" underline="true">
          <font>
             <Font size="14.0" />
          </font>
@@ -87,5 +87,10 @@
          </font>
       </RadioButton>
       <PasswordField fx:id="tf_password" layoutX="632.0" layoutY="400.0" prefHeight="40.0" prefWidth="265.0" />
+      <Label layoutX="637.0" layoutY="507.0" prefHeight="27.0" prefWidth="255.0" textFill="#43beb5">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
