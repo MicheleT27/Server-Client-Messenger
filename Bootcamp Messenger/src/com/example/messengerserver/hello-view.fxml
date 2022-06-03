@@ -25,7 +25,7 @@
             </content>
         </ScrollPane>
         <Label layoutX = "114" layoutY = "26"
-               text = "Richard's Messenger">
+               text = "Bootcamp Messenger">
             <font>
                 <Font name = "Arial Rounded MT Bold" size = "23"></Font>
             </font>
