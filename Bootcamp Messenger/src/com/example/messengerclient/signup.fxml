@@ -87,7 +87,7 @@
          </font>
       </RadioButton>
       <PasswordField fx:id="tf_password" layoutX="632.0" layoutY="400.0" prefHeight="40.0" prefWidth="265.0" />
-      <Label fx:id="label_signupcomplete" layoutX="693.0" layoutY="510.0" prefHeight="27.0" prefWidth="154.0" text="Successfully signed up!" textFill="#43beb5">
+      <Label fx:id="label_signupcomplete" layoutX="693.0" layoutY="510.0" prefHeight="27.0" prefWidth="154.0" textFill="#43beb5">
          <font>
             <Font size="14.0" />
          </font>

@@ -173,6 +173,7 @@ public class DBUtils {
                 alert.show();
             } else {
                 psUpdate = connection.prepareStatement("UPDATE users SET username = ? WHERE user_id = ?");
+                psUpdate.setString(1, username);
                 psUpdate.executeUpdate();
             }
 
@@ -230,6 +231,7 @@ public class DBUtils {
                 alert.show();
             } else {
                 psUpdate = connection.prepareStatement("UPDATE users SET password = ? WHERE user_id = ?");
+                psUpdate.setString(3, password);
                 psUpdate.executeUpdate();
             }
 

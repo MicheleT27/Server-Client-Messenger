@@ -112,7 +112,7 @@ public class SettingsController implements Initializable {
         button_changepassword.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if (tf_newpassword.getText() != tf_confirmpassword.getText()) {
+                if (!Objects.equals(tf_newpassword.getText(), tf_confirmpassword.getText())) {
                     System.out.println("Passwords do not match!");
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setContentText("Passwords have to match!");
