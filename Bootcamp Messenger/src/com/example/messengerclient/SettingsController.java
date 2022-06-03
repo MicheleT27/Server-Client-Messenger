@@ -89,6 +89,7 @@ public class SettingsController implements Initializable {
         Image image;
         if(SignUpController.gender.equalsIgnoreCase("Male")) {
             image = new Image("https://img.icons8.com/ios-filled/344/user-male--v1.png", false);
+            proImage.setImage(image);
         } else {
             image = new Image("https://img.icons8.com/ios-filled/344/user-female.png", false);
             proImage.setImage(image);
